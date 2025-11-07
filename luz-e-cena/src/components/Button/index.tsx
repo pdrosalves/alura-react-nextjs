@@ -13,7 +13,7 @@ const Button = ({ children, variant = "default", ...rest }: ButtonProps) => {
   };
 
   return (
-    <button className={classnames(styles.botao, classMap[variant])} {...rest}
+    <button className={classnames(styles.botao, classMap[variant])} {...rest}>
       {children}
     </button>
   );
